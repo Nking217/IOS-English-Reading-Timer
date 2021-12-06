@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2B5544272807E00060CB50 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B5543272807E00060CB50 /* SplashScreen.swift */; };
+		5B6BCC5C26766AB100BE97AC /* SaveDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BCC5B26766AB100BE97AC /* SaveDataManager.swift */; };
+		5B7347F7261280AE00146FA6 /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7347F6261280AE00146FA6 /* StopWatchManager.swift */; };
+		5B75CD94267A6AD700B16165 /* StatsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B75CD93267A6AD700B16165 /* StatsManager.swift */; };
+		5B83789D2601F0F100028C42 /* English_Timer_REEDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83789C2601F0F100028C42 /* English_Timer_REEDApp.swift */; };
+		5B83789F2601F0F100028C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83789E2601F0F100028C42 /* ContentView.swift */; };
+		5B8378A12601F0F600028C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8378A02601F0F600028C42 /* Assets.xcassets */; };
+		5B8378A42601F0F600028C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8378A32601F0F600028C42 /* Preview Assets.xcassets */; };
+		5B8378AF2601F0F600028C42 /* English_Timer_REEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8378AE2601F0F600028C42 /* English_Timer_REEDTests.swift */; };
+		5B8378BA2601F0F600028C42 /* English_Timer_REEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8378B92601F0F600028C42 /* English_Timer_REEDUITests.swift */; };
+		5BBBC21F26E7B82B0081BD4A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBBC21E26E7B82B0081BD4A /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B8378AB2601F0F600028C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8378912601F0F100028C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8378982601F0F100028C42;
+			remoteInfo = "English Timer REED";
+		};
+		5B8378B62601F0F600028C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8378912601F0F100028C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8378982601F0F100028C42;
+			remoteInfo = "English Timer REED";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B2B5543272807E00060CB50 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5B6BCC5B26766AB100BE97AC /* SaveDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDataManager.swift; sourceTree = "<group>"; };
+		5B7347F6261280AE00146FA6 /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
+		5B75CD93267A6AD700B16165 /* StatsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsManager.swift; sourceTree = "<group>"; };
+		5B8378992601F0F100028C42 /* English Timer REED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Timer REED.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B83789C2601F0F100028C42 /* English_Timer_REEDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English_Timer_REEDApp.swift; sourceTree = "<group>"; };
+		5B83789E2601F0F100028C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B8378A02601F0F600028C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B8378A32601F0F600028C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B8378A52601F0F600028C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8378AA2601F0F600028C42 /* English Timer REEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English Timer REEDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8378AE2601F0F600028C42 /* English_Timer_REEDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English_Timer_REEDTests.swift; sourceTree = "<group>"; };
+		5B8378B02601F0F600028C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8378B52601F0F600028C42 /* English Timer REEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English Timer REEDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8378B92601F0F600028C42 /* English_Timer_REEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English_Timer_REEDUITests.swift; sourceTree = "<group>"; };
+		5B8378BB2601F0F600028C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBBC21E26E7B82B0081BD4A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B8378962601F0F100028C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8378A72601F0F600028C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8378B22601F0F600028C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8378902601F0F100028C42 = {
+			isa = PBXGroup;
+			children = (
+				5BBBC21E26E7B82B0081BD4A /* Extensions.swift */,
+				5B83789B2601F0F100028C42 /* English Timer REED */,
+				5B8378AD2601F0F600028C42 /* English Timer REEDTests */,
+				5B8378B82601F0F600028C42 /* English Timer REEDUITests */,
+				5B83789A2601F0F100028C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B83789A2601F0F100028C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8378992601F0F100028C42 /* English Timer REED.app */,
+				5B8378AA2601F0F600028C42 /* English Timer REEDTests.xctest */,
+				5B8378B52601F0F600028C42 /* English Timer REEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B83789B2601F0F100028C42 /* English Timer REED */ = {
+			isa = PBXGroup;
+			children = (
+				5BD0FEFD272D82DF00DEF121 /* View */,
+				5B83789C2601F0F100028C42 /* English_Timer_REEDApp.swift */,
+				5B83789E2601F0F100028C42 /* ContentView.swift */,
+				5B7347F6261280AE00146FA6 /* StopWatchManager.swift */,
+				5B6BCC5B26766AB100BE97AC /* SaveDataManager.swift */,
+				5B75CD93267A6AD700B16165 /* StatsManager.swift */,
+				5B8378A02601F0F600028C42 /* Assets.xcassets */,
+				5B8378A52601F0F600028C42 /* Info.plist */,
+				5B8378A22601F0F600028C42 /* Preview Content */,
+			);
+			path = "English Timer REED";
+			sourceTree = "<group>";
+		};
+		5B8378A22601F0F600028C42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B8378A32601F0F600028C42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B8378AD2601F0F600028C42 /* English Timer REEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8378AE2601F0F600028C42 /* English_Timer_REEDTests.swift */,
+				5B8378B02601F0F600028C42 /* Info.plist */,
+			);
+			path = "English Timer REEDTests";
+			sourceTree = "<group>";
+		};
+		5B8378B82601F0F600028C42 /* English Timer REEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8378B92601F0F600028C42 /* English_Timer_REEDUITests.swift */,
+				5B8378BB2601F0F600028C42 /* Info.plist */,
+			);
+			path = "English Timer REEDUITests";
+			sourceTree = "<group>";
+		};
+		5BD0FEFD272D82DF00DEF121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B2B5543272807E00060CB50 /* SplashScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B8378982601F0F100028C42 /* English Timer REED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8378BE2601F0F600028C42 /* Build configuration list for PBXNativeTarget "English Timer REED" */;
+			buildPhases = (
+				5B8378952601F0F100028C42 /* Sources */,
+				5B8378962601F0F100028C42 /* Frameworks */,
+				5B8378972601F0F100028C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "English Timer REED";
+			packageProductDependencies = (
+			);
+			productName = "English Timer REED";
+			productReference = 5B8378992601F0F100028C42 /* English Timer REED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B8378A92601F0F600028C42 /* English Timer REEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8378C12601F0F600028C42 /* Build configuration list for PBXNativeTarget "English Timer REEDTests" */;
+			buildPhases = (
+				5B8378A62601F0F600028C42 /* Sources */,
+				5B8378A72601F0F600028C42 /* Frameworks */,
+				5B8378A82601F0F600028C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8378AC2601F0F600028C42 /* PBXTargetDependency */,
+			);
+			name = "English Timer REEDTests";
+			productName = "English Timer REEDTests";
+			productReference = 5B8378AA2601F0F600028C42 /* English Timer REEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B8378B42601F0F600028C42 /* English Timer REEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8378C42601F0F600028C42 /* Build configuration list for PBXNativeTarget "English Timer REEDUITests" */;
+			buildPhases = (
+				5B8378B12601F0F600028C42 /* Sources */,
+				5B8378B22601F0F600028C42 /* Frameworks */,
+				5B8378B32601F0F600028C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8378B72601F0F600028C42 /* PBXTargetDependency */,
+			);
+			name = "English Timer REEDUITests";
+			productName = "English Timer REEDUITests";
+			productReference = 5B8378B52601F0F600028C42 /* English Timer REEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8378912601F0F100028C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5B8378982601F0F100028C42 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5B8378A92601F0F600028C42 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5B8378982601F0F100028C42;
+					};
+					5B8378B42601F0F600028C42 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5B8378982601F0F100028C42;
+					};
+				};
+			};
+			buildConfigurationList = 5B8378942601F0F100028C42 /* Build configuration list for PBXProject "English Timer REED" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B8378902601F0F100028C42;
+			packageReferences = (
+			);
+			productRefGroup = 5B83789A2601F0F100028C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8378982601F0F100028C42 /* English Timer REED */,
+				5B8378A92601F0F600028C42 /* English Timer REEDTests */,
+				5B8378B42601F0F600028C42 /* English Timer REEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8378972601F0F100028C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8378A42601F0F600028C42 /* Preview Assets.xcassets in Resources */,
+				5B8378A12601F0F600028C42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8378A82601F0F600028C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8378B32601F0F600028C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B8378952601F0F100028C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6BCC5C26766AB100BE97AC /* SaveDataManager.swift in Sources */,
+				5BBBC21F26E7B82B0081BD4A /* Extensions.swift in Sources */,
+				5B2B5544272807E00060CB50 /* SplashScreen.swift in Sources */,
+				5B83789F2601F0F100028C42 /* ContentView.swift in Sources */,
+				5B7347F7261280AE00146FA6 /* StopWatchManager.swift in Sources */,
+				5B75CD94267A6AD700B16165 /* StatsManager.swift in Sources */,
+				5B83789D2601F0F100028C42 /* English_Timer_REEDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8378A62601F0F600028C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8378AF2601F0F600028C42 /* English_Timer_REEDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8378B12601F0F600028C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8378BA2601F0F600028C42 /* English_Timer_REEDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B8378AC2601F0F600028C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8378982601F0F100028C42 /* English Timer REED */;
+			targetProxy = 5B8378AB2601F0F600028C42 /* PBXContainerItemProxy */;
+		};
+		5B8378B72601F0F600028C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8378982601F0F100028C42 /* English Timer REED */;
+			targetProxy = 5B8378B62601F0F600028C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B8378BC2601F0F600028C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B8378BD2601F0F600028C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B8378BF2601F0F600028C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"English Timer REED/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PCXC9466J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "English Timer REED/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REED.English-Timer-REED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B8378C02601F0F600028C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"English Timer REED/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PCXC9466J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "English Timer REED/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REED.English-Timer-REED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5B8378C22601F0F600028C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PCXC9466J;
+				INFOPLIST_FILE = "English Timer REEDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REED.English-Timer-REEDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English Timer REED.app/English Timer REED";
+			};
+			name = Debug;
+		};
+		5B8378C32601F0F600028C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PCXC9466J;
+				INFOPLIST_FILE = "English Timer REEDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REED.English-Timer-REEDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English Timer REED.app/English Timer REED";
+			};
+			name = Release;
+		};
+		5B8378C52601F0F600028C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PCXC9466J;
+				INFOPLIST_FILE = "English Timer REEDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REED.English-Timer-REEDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "English Timer REED";
+			};
+			name = Debug;
+		};
+		5B8378C62601F0F600028C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PCXC9466J;
+				INFOPLIST_FILE = "English Timer REEDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "REED.English-Timer-REEDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "English Timer REED";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B8378942601F0F100028C42 /* Build configuration list for PBXProject "English Timer REED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8378BC2601F0F600028C42 /* Debug */,
+				5B8378BD2601F0F600028C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8378BE2601F0F600028C42 /* Build configuration list for PBXNativeTarget "English Timer REED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8378BF2601F0F600028C42 /* Debug */,
+				5B8378C02601F0F600028C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8378C12601F0F600028C42 /* Build configuration list for PBXNativeTarget "English Timer REEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8378C22601F0F600028C42 /* Debug */,
+				5B8378C32601F0F600028C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8378C42601F0F600028C42 /* Build configuration list for PBXNativeTarget "English Timer REEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8378C52601F0F600028C42 /* Debug */,
+				5B8378C62601F0F600028C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B8378912601F0F100028C42 /* Project object */;
+}
