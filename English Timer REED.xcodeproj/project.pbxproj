@@ -457,7 +457,7 @@
 				DEVELOPMENT_TEAM = 9PCXC9466J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "English Timer REED/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +480,7 @@
 				DEVELOPMENT_TEAM = 9PCXC9466J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "English Timer REED/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
